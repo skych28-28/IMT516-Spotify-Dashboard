@@ -1,11 +1,11 @@
 [project]
-name = "Spotify Music Analytics"
+name = "Spotify-Music-Analytics"
 version = "1.0.0"
-description = "<UPDATE ME>"
+description = "<This is a dashboard curated from a Spotify Music Analytics dataset.>"
 authors = [
-  {name = "Your Name", email = "you@example.com"},
-  {name = "Your Name", email = "you@example.com"},
-  {name = "Your Name", email = "you@example.com"}
+  {name = "Shubhi Handa", email = "shubhihanda@gmail.edu"},
+  {name = "Emily Song", email = "mbs38@uw.edu"},
+  {name = "Skyler Chen", email = "sjc163@uw.edu"}
 ]
 requires-python = ">=3.14"
 dependencies = [
