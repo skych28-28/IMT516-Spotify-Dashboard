@@ -24,9 +24,10 @@ def render_filters(df: pd.DataFrame) -> pd.DataFrame:
     max_stream = int(df["stream_count"].max())
     stream_range = st.sidebar.slider(
         "Stream Count Range",
-        min_stream,
-        max_stream,
-        (min_stream, max_stream)
+        min_value=min_stream,
+        max_value=max_stream,
+        value=(min_stream, max_stream),
+        step=100000
     )
 
     # --- Release Year Slider ---
