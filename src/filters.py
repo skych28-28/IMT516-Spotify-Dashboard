@@ -27,7 +27,7 @@ def render_filters(df: pd.DataFrame) -> pd.DataFrame:
         min_value=min_stream,
         max_value=max_stream,
         value=(min_stream, max_stream),
-        step=100000
+        step=1000000
     )
 
     # --- Release Year Slider ---
